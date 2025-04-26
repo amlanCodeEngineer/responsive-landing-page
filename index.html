@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <section>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Service"
+                  >Service</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Portfolio"
+                  >Portfolio</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About"
+                  >About</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Team">Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Hero Section -->
+    <section class="hero_section">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="section__heading">Welcome To Our Studio!</h1>
+          <h2 class="section__subHeaing">It's Nice To Meet You</h2>
+          <a href="#" class="btn btn-custom"> Tell Me More </a>
+        </div>
+      </div>
+    </section>
+    <!-- srevice Section -->
+    <section id= "Service" class="service_section">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="section__heading">Services</h1>
+                <p class="section__subHeaing">Explore the core offerings of our blog: engaging articles, compelling stories, and insightful ideas designed to enrich your reading experience.</p>
+            </div>
+        </div>
+    <div class="row text-center mt-5 ">
+        <div class="col-md-4">
+          <div class="service__box">
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="service__icon"><i class="bi bi-cart-check-fill"></i></span>
+            </div>
+            <h2>E-Commerce</h2>
+            <p>Read articles focused on the latest trends, strategies, and insights in the world of online business and digital marketplaces.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service__box">
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="service__icon"><i class="bi bi-laptop"></i></span>
+            </div>
+            <h2>Responsive Design</h2>
+            <p>Discover articles discussing the principles and best practices of creating websites that adapt seamlessly to all devices.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service__box">
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="service__icon"><i class="bi bi-unlock-fill"></i></span>
+            </div>
+            <h2>Web Security</h2>
+            <p>Explore our collection of articles dedicated to understanding and implementing robust security measures for your online presence.</p>
+          </div>
+        </div>
+    </section>
+
+      
+    <!-- Portfolio Section -->
+    <section  id="Portfolio" class="portfolio__section">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="section__heading">Featured Stories</h1>
+                <p  class="section__subHeaing">Explore a selection of our most popular and insightful blog posts, showcasing the diverse topics and engaging narratives you'll find here.</p>
+            </div>
+            <div class="row mt-5" >
+              <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="protfolio__item">
+                  <a href="#">
+                    <img class="img-fluid" src="img/portfolio_1.png" alt="Minimalist Living">
+                  </a>
+                  <div class="protfolio_content">
+                    <h2>The Art of Minimalist Living</h2>
+                    <p>Discover how embracing simplicity can lead to a more intentional and fulfilling life.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="protfolio__item">
+                  <a href="#">
+                    <img class="img-fluid" src="img/portfolio_2.png" alt="Creative Potential">
+                  </a>
+                  <div class="protfolio_content">
+                    <h2>Unlocking Your Creative Potential</h2>
+                    <p>Explore practical techniques and inspiring stories to ignite your imagination and foster innovation.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                </div>
+
+              <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="protfolio__item">
+                  <a href="#">
+                    <img class="img-fluid" src="img/portfolio_3.png" alt="Future of Tech">
+                  </a>
+                  <div class="protfolio_content">
+                    <h2>Navigating the Future of Technology</h2>
+                    <p>Stay informed about the latest advancements and their potential impact on our world.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="protfolio__item">
+                  <a href="#">
+                    <img class="img-fluid" src="img/portfolio_4.png" alt="Nature's Hidden Gems">
+                  </a>
+                  <div class="protfolio_content">
+                    <h2>Exploring Nature's Hidden Gems</h2>
+                    <p>Embark on virtual journeys to discover breathtaking landscapes and the wonders of the natural world.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="protfolio__item">
+                  <a href="#">
+                    <img class="img-fluid" src="img/portfolio_5.png" alt="Effective Communication">
+                  </a>
+                  <div class="protfolio_content">
+                    <h2>Mastering the Art of Communication</h2>
+                    <p>Learn essential skills for clear, impactful, and meaningful interactions in all aspects of life.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="protfolio__item">
+                  <a href="#">
+                    <img class="img-fluid" src="img/portfolio_6.png" alt="Science of Well-being">
+                  </a>
+                  <div class="protfolio_content">
+                    <h2>The Science of Well-being</h2>
+                    <p>Delve into the research behind happiness, mindfulness, and strategies for a more balanced existence.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="About" class="about_section">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="section__heading">Our Story</h1>
+            <p class="section__subHeading">
+              Passionate about sharing knowledge and connecting readers with compelling ideas, our blog is a space for exploration and discovery.
+            </p>
+          </div>
+  
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <div class="about__content">
+                <h2>Our Journey</h2>
+                <p>
+                  Founded with the vision of creating a platform for diverse voices and engaging content, our blog has grown into a thriving community of curious minds...
+                </p>
+                <ul>
+                  <li>
+                    <span class="about_icon"><i class="bi bi-arrow-right-circle-fill"></i></span>
+                    We strive to deliver high-quality articles that inform, inspire, and entertain.
+                  </li>
+                  <li>
+                    <span class="about_icon"><i class="bi bi-arrow-right-circle-fill"></i></span>
+                    Our commitment is to explore a wide range of topics with depth and insightful perspectives.
+                  </li>
+                  <li>
+                    <span class="about_icon"><i class="bi bi-arrow-right-circle-fill"></i></span>
+                    We believe in the power of storytelling to connect people and broaden understanding.
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="col-md-6">
+              <div class="about__content">
+                <img src="img/about.jpg" alt="About Image" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <!-- Team Section -->
+    <section id="Team" class="team__section">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="section__heading">Meet Our Contributors</h1>
+            <p class="section__subHeading">
+              Our blog's diverse perspectives are brought to you by a talented group of writers and creators.
+            </p>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-4 mb-4">
+              <div class="team__member text-center">
+                <div class="team__img mx-auto">
+                  <img class="img-fluid" src="img/team_3.png" alt="Alex Johan">
+  
+                </div>
+                <div>
+                  <h2>Professor Sergio</h2>
+                <p>Senior Editor & Writer</p>
+                </div>
+                <div class="team__social mx-auto">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="team__member text-center">
+                <div class="team__img mx-auto">
+                  <img class="img-fluid" src="img/team_2.png" alt="Selena Gomez">
+  
+                </div>
+                <div>
+                  <h2>Selena Gomez</h2>
+                <p>Contributing Writer (Lifestyle & Culture)</p>
+                </div>
+                <div class="team__social mx-auto">
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-pinterest"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="team__member text-center">
+                <div class="team__img mx-auto">
+                  <img class="img-fluid" src="img/ratul.png" alt="RKD">
+  
+                </div>
+                <div>
+                  <h2>Ratul Kumar Das</h2>
+                <p>Guest Writer (Technology & Innovation)</p>
+                </div>
+                <div class="team__social mx-auto">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                  <a href="#"><i class="bi bi-medium"></i></a>
+                  <a href="#"><i class="bi bi-stack-overflow"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    <!-- Contact Section -->
+    <section id="Contact" class="contact_section py-5">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="section__heading">Connect With Us</h1>
+            <p class="section__subHeading">
+              Share your thoughts, suggestions, or inquiries – we're always happy to hear from our readers!
+            </p>
+          </div>
+          <div class="row justify-content-center mt-4">
+            <div class="col-12 col-md-10 col-lg-8">
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Your Name" required />
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="Your Email" required />
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Subject" required />
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-custom w-100 w-md-auto">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container text-center">
+      <h3>Stay Connected and Explore More!</h3>
+      <p>Copyright &#169 My Blog 2025</p>
+    </div>
+  </footer>
+  
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
